@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Foody Website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foody Restaurant</title>
 
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="Assets/css/Style.css">
 
@@ -52,18 +54,31 @@
             </div>
         </div>
         <div class="collapse">
-            <div class=" nav-bar align-center flex">
-                <nav>
-                    <ul class="flex">
-                        <li><a class="active" href="#">Home</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="#">Delivery</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Features</a></li>
-                    </ul>
-                </nav>
-                <button class="btn align-center">Table Booking</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class=" nav-bar flex align-center ">
+                            
+                            <nav class="open-nav flex text-center">
+                                <ul class="flex align-center">
+                                    <li><a class="active" href="#">Home</a></li>
+                                    <li><a href="#">Menu</a></li>
+                                    <li><a href="#">Pages</a></li>
+                                    <li><a href="#">Delivery</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Features</a></li>
+                                </ul>
+                                <button class="btn align-center">Table Booking</button>
+                            </nav>
+                            
+                            <div class="hamburger">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="foody text-center">
@@ -76,10 +91,10 @@
                             laboriosam, recusandae possimus numquam quis voluptatum laborum minus. Sed, a eum tenetur
                             harum cupiditate officia dolores ab veniam!recusandae possimus numquam quis voluptatum
                             laborum minus. Sed, a eum tenetur harum. </p>
+                        <button class="btn foody">Click here</button>
                     </div>
                     <div class="col-1"></div>
                 </div>
-                <button class="btn foody">Click here</button>
             </div>
         </div>
     </header>
@@ -402,6 +417,12 @@ Saturday & Sunday
     <footer>
         <p class="text-center">&copy; Copyright 2024 Md Farzan Akhtar</p>
     </footer>
+    
+    <!-- ======== Aos Animation Js Link ======== -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <!-- ======== Js Script Link ========  -->
+    <script src="Assets/js/main.js"></script>
 </body>
 
 </html>

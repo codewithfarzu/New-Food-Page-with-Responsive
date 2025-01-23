@@ -92,28 +92,36 @@ h3{font:400 38px var(--ff)}
 .gap-y-60{gap: 4rem 0;}
 
 /*------------ CSS ------------*/
-header{background-image: url(../img/banner.webp); background-repeat: no-repeat; background-position:center; background-size: cover; width: auto;  height: 799px;}
+header{background-image: url(../img/banner.webp); background-repeat: no-repeat; background-position:center; background-size: cover; width: auto;  height: auto; padding-bottom: 50px;}
 .food-order{background: #fff; position: relative; line-height: 30px;}
 .food-order i{line-height: 30px; margin-right: 11px; font-size: 18px; color: var(--yellow); cursor: pointer;}
 .food-order .fa-regular{margin-left: 57px;}
 .food-order .fa-solid{margin-left: 35px;}
 .food-order .social{margin-left: 7rem;}
 .food-order p{font-family: "OpenSans",serif; font-size: 15px;}
-.nav-bar{justify-content: end; background-color: #0009; color: #fff; font:400 17px var(--myd); padding: 24px 0 24px;}
-.nav-bar .btn{margin: 0 64px 0 0; background: none; border: 2px solid #fff; border-radius: 10px; color: var(--yellow); font-size: 17px;font-family: var(--myd); padding: 15px 26px;}
+.collapse{background-color: #0009;}
+.nav-bar{justify-content: end; color: #fff; font:400 17px var(--myd); padding: 24px 0;}
+.nav-bar .btn{background: none; border: 2px solid #fff; border-radius: 10px; color: var(--yellow); font-size: 17px;font-family: var(--myd); padding: 15px 26px;}
 .nav-bar .btn:hover{background: var(--yellow); color: inherit; border-color: var(--yellow);}
 .nav-bar li a{ color: inherit;  padding: 25px 15px; }
-nav{margin-right: 30px;}
 nav ul li{margin: 0 0 0 5px;}
 nav ul li a:hover{color: var(--yellow);}
 .nav-bar li a.active{color: #e7a331;}
+
+.hamburger{ display: none;}
+
+.bar{height: 3px; width: 35px; background: #fff; margin: 5px 0; transition: all .3s;}
+
+.hamburger--open .bar:nth-child(1){ transform: translateY(7px) rotate(45deg);}
+.hamburger--open .bar:nth-child(2){ opacity: 0;}
+.hamburger--open .bar:nth-child(3){ transform: translateY(-7px) rotate(-45deg);}
 
 
 .foody{color: #fff;}
 .foody h2{color: inherit; margin-top: 80px; margin-bottom: 24px; font: 400 10rem var(--pio); text-shadow: black -3px 6px 7px;}
 .foody p{color: inherit; margin-bottom: 42px; font-size:25px; font-weight: 400; font-family:var(--ff);}
 .foody .btn{ background: none; border: 2px solid #fff; border-radius: 10px; font-size: 20px; font-family: var(--ff); padding: 13px 38px; color: inherit; place-items: center;}
-.foody .btn:hover{ border: 2px solid #fff; border-color:var(--yellow); background-color: var(--yellow); color: inherit;}
+.foody .btn:hover{ border: 2px solid #fff; border-color:var(--yellow); background-color: var(--yellow); color: #000;}
 
 .wrap-1{background-image: url(../img/wrap-1-bg.webp); background-repeat: no-repeat; background-position: center; background-size: cover; padding: 100px 0;}
 .wrap-1 .double-img{position: relative; }
@@ -126,7 +134,7 @@ nav ul li a:hover{color: var(--yellow);}
 .wrap-1 .aboutus{ font: 400 30px var(--pio);}
 .wrap-1 h3{ font: 400 38px var(--ff); margin-bottom: 29px;}
 .wrap-1 p{font: 400 15px var(--ff);}
-.wrap-1 .btn{margin-left: 74px; margin-top: 40px;}
+.wrap-1 .btn{margin-left: 74px; margin-top: 40px; color: #000;}
 
 .wrap-2{background-image: url(../img/wrap-2-bg.webp); background-repeat: no-repeat; background-position: center; background-size: cover; position: relative; padding: 100px 0;}
 .wrap-2 .recipes{ background-image: url(../img/wrap-2-square.webp); width: 533px; height: 466px; background-repeat: no-repeat; background-size:cover; background-position:center; position: absolute;}
@@ -134,7 +142,7 @@ nav ul li a:hover{color: var(--yellow);}
 .recipes .left-margin{margin-left: 43px;}
 .wrap-2 .special{font: 400 30px var(--pio); padding-top: 49px;}
 .wrap-2 h3{margin-bottom: 37px;}
-.wrap-2 .btn{margin-top: 35px;}
+.wrap-2 .btn{margin-top: 35px; color: #000;}
 /* .wrap-2 .col-7 img{} */
 
 .wrap-3{background: url(../img/wrap-1-bg.webp); background-repeat: no-repeat; background-position: center; background-size: cover; padding: 100px 0;}
@@ -180,7 +188,7 @@ nav ul li a:hover{color: var(--yellow);}
 .wrap-6 form{margin-top: 21px;}
 .wrap-6 form input{ width: 95%; padding: 19px 0 14px 23px; border-radius: 6px; background-color: #323232; color: #fff; border:none; outline: none; margin-bottom: 10px; font: 400 18px var(--ff);}
 .wrap-6 form textarea{width: 95%; height: 109px; border-radius: 6px; background-color: #323232; color: #fff; font: 400 18px var(--ff); border: none; outline: none; padding: 15px 0 0 23px; resize: none;}
-.wrap-6 .submit{padding: 18px 52px; margin-left: 10px; margin-top: 15px;}
+.wrap-6 .submit{padding: 18px 52px; margin-left: 10px; margin-top: 15px; color: #000;}
 
 footer{line-height: 63px;}
 footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;}
@@ -197,7 +205,7 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .food-order .fa-solid{margin-left: 29px;}
     .food-order .social{margin-left: 53px;}
     .food-order .fa-instagram { margin-right: 0px;}
-    .collapse .nav-bar .btn {margin: 0 17px 0 0;}
+    .collapse .nav-bar .btn {}
     .foody h2{margin-top: 110px; font: 400 8rem var(--pio);}
     .foody p{margin-bottom: 35px;}
     .wrap-1 .img-2{margin-left: 42px; top: 0;}
@@ -238,14 +246,13 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .food-order .fa-regular { margin-left: 0;}
     .food-order .fa-solid { margin-left: 20px;}
     .food-order p { font-size: 11px;}
-    .food-order i{ margin-right: 8px; font-size: 14px;}
+    .food-order i{ margin-right: 7px; font-size: 14px;}
     .foody h2{font: 400 5rem var(--pio); margin-top: 100px;}
     .foody p{font-size: 22px;}
     .o-p-0{order: -1;}
-    nav {margin-right: 10px;}
     nav ul li {margin: 0;}
     .nav-bar li a {padding: 25px 5px;}
-    .nav-bar .btn {margin: 0px 25px 0 0;}
+    .nav-bar .btn {}
     .nav-bar .btn {font-size: 16px; padding: 10px 10px;}
     .wrap-1 .img-2{left: 0;}
     .wrap-1 .double-img{margin: 100px 0 0 80px;}
@@ -289,7 +296,18 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .col-m-6{ flex-basis: 50%; max-width: 50%;}
     .col-m-12{ flex-basis: 100%; max-width: 100%;}
     .o-p-0{order: -1;}
-    .foody h2 {font: 400 4rem var(--pio);}
+    .collapse{background-color: #0009; padding: 15px 0;}
+    /* nav{display: none;} */
+    .open-nav{display: none; position: absolute; top: 59px; background: #0009; right: 0; width: 100%; padding: 30px 0; z-index: 1;}
+    .open-nav ul{ flex-direction: column; gap: 16px; margin-bottom: 20px;}
+    .open{ display: block;}
+    .nav-bar{padding: 0;}
+    .hamburger{display: block; float: right;}
+    .food-order .col-t-5, .food-order .col-t-3{display: none;}
+    .food-order .index img {width: 150px; height: 90px;}
+    /* .foody{transform: translateY(150px);} */
+    .foody .btn{transform: translateY(0);}
+    .foody h2 {font: 400 4rem var(--pio); margin: 0;}
     .foody p {font-size: 17px;}
     .wrap-1 .aboutus {font: 400 25px var(--pio);}
     .wrap-1 h3 {font: 400 30px var(--ff);}
@@ -307,7 +325,7 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .wrap-2 .col-7 img {margin: 14em 0 0 0; width: 435px; height: 344px;}
     .wrap-3 .delight {font: 400 20px var(--pio);}
     .wrap-3 h3{font: 400 28px var(--ff);}
-    .wrap-3 .image-1 img{width: 100%px; height: 280px;}
+    .wrap-3 .image-1 img{width: 100%; height: 280px;}
     .wrap-3 .images .inner {width: 200px; height: 200px; top: 25px; right: 60px;}
     .wrap-3 .images .inner h4 {margin: 15px 0; font-size: 18px;}
     .wrap-3 .images .inner p {margin-bottom: 15px;}
@@ -331,6 +349,7 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .col-p-6{ flex-basis: 50%; max-width: 50%;}
     .col-p-12{ flex-basis: 100%; max-width: 100%;}
     header {width: 100%; height: 597px;}
+    .foody {transform: translateY(60px);}
     .foody h2 {font: 400 3rem var(--pio); margin-top: 50px;}
     .foody p {font-size: 18px;}
     .wrap-1 .tasty {margin-left: 30px;}

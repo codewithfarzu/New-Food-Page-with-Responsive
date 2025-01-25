@@ -108,6 +108,8 @@ nav ul li{margin: 0 0 0 5px;}
 nav ul li a:hover{color: var(--yellow);}
 .nav-bar li a.active{color: #e7a331;}
 
+/* .open-nav.open{transition: all .4s;} */
+
 .hamburger{ display: none;}
 
 .bar{height: 3px; width: 35px; background: #fff; margin: 5px 0; transition: all .3s;}
@@ -123,7 +125,7 @@ nav ul li a:hover{color: var(--yellow);}
 .foody .btn{ background: none; border: 2px solid #fff; border-radius: 10px; font-size: 20px; font-family: var(--ff); padding: 13px 38px; color: inherit; place-items: center;}
 .foody .btn:hover{ border: 2px solid #fff; border-color:var(--yellow); background-color: var(--yellow); color: #000;}
 
-.wrap-1{background-image: url(../img/wrap-1-bg.webp); background-repeat: no-repeat; background-position: center; background-size: cover; padding: 100px 0;}
+.wrap-1{background-image: url(/Assets/img/wrap-1-bg.webp); background-repeat: no-repeat; background-position: center; background-size: cover; padding: 100px 0;}
 .wrap-1 .double-img{position: relative; }
 .wrap-1 .img-1{position: relative; border: 10px solid #fff; box-shadow: 0px 0px 9px 2px #000; width: 400px; height: 355px;}
 .wrap-1 .img-2{position: absolute; border: 10px solid #fff; box-shadow: 0px 0px 9px 2px #000; width: 400px; height: 355px;}
@@ -136,7 +138,7 @@ nav ul li a:hover{color: var(--yellow);}
 .wrap-1 p{font: 400 15px var(--ff);}
 .wrap-1 .btn{margin-left: 74px; margin-top: 40px; color: #000;}
 
-.wrap-2{background-image: url(../img/wrap-2-bg.webp); background-repeat: no-repeat; background-position: center; background-size: cover; position: relative; padding: 100px 0;}
+.wrap-2{background-image: url(/Assets/img/wrap-2-bg.webp); background-repeat: no-repeat; background-position: center; background-size: cover; position: relative; padding: 100px 0;}
 .wrap-2 .recipes{ background-image: url(../img/wrap-2-square.webp); width: 533px; height: 466px; background-repeat: no-repeat; background-size:cover; background-position:center; position: absolute;}
 .wrap-2 .recipes{margin-top:46px;}
 .recipes .left-margin{margin-left: 43px;}
@@ -145,7 +147,7 @@ nav ul li a:hover{color: var(--yellow);}
 .wrap-2 .btn{margin-top: 35px; color: #000;}
 /* .wrap-2 .col-7 img{} */
 
-.wrap-3{background: url(../img/wrap-1-bg.webp); background-repeat: no-repeat; background-position: center; background-size: cover; padding: 100px 0;}
+.wrap-3{background: url(/Assets/img/wrap-1-bg.webp); background-repeat: no-repeat; background-position: center; background-size: cover; padding: 100px 0;}
 .wrap-3 .delight{font: 400 30px var(--pio);}
 .wrap-3 .images{margin-top: 67px;}
 .image-1 img {width: 100%; height: 300px; object-fit: cover;}
@@ -156,7 +158,7 @@ nav ul li a:hover{color: var(--yellow);}
 .wrap-3 .inner .italian{ padding:9px 15px; font: 400 15px var(--ff);}
 .wrap-3 .image-1:hover .inner{ display:block;}
 
-.wrap-4{background: url(../img/wrap-4-bg.webp); background-repeat: no-repeat; background-size: cover; background-position: center; position: relative; padding: 100px 0;}
+.wrap-4{background: url(/Assets/img/wrap-4-bg.webp); background-repeat: no-repeat; background-size: cover; background-position: center; position: relative; padding: 100px 0;}
 .wrap-4 .amazing{color: #fff; font: 400 30px var(--pio);}
 .wrap-4 h3{color: #fff; margin-bottom: 57px;}
 .wrap-4 .drink-text{background: #fff; width: 600px; height: 454px; margin-top: 43px; margin-left: -32px;}
@@ -169,7 +171,7 @@ nav ul li a:hover{color: var(--yellow);}
 .wrap-4 .dessert-text{background: #fff; width: 600px; height: 454px; margin-top: 104px; margin-left: -32px;}
 .wrap-4 .dessert-img{margin-top: 64px;}
 
-.wrap-5{background: url(../img/wrap-5-bg.webp); background-repeat: no-repeat; background-size: cover; background-position: center; padding: 100px 0;}
+.wrap-5{background: url(/Assets/img/wrap-5-bg.webp); background-repeat: no-repeat; background-size: cover; background-position: center; padding: 100px 0;}
 .wrap-5 .food-mobile img{ margin: 0000;}
 .wrap-5 .happy { color: #fff; margin-left: 73px;}
 .wrap-5 .happy p{color: inherit; font: 400 30px var(--pio); margin-top: 137px;}
@@ -180,7 +182,7 @@ nav ul li a:hover{color: var(--yellow);}
 .wrap-5 .app a:first-child{ margin-right: 30px;}
 
 
-.wrap-6{background: url(../img/footer-bg.webp); background-repeat: no-repeat; background-size: cover; background-position: center; color: #fff; padding: 100px 0;}
+.wrap-6{background: url(/Assets/img/footer-bg.webp); background-repeat: no-repeat; background-size: cover; background-position: center; color: #fff; padding: 100px 0;}
 .wrap-6 p{color: inherit; font: 400 30px var(--pio); margin-top: 64px; margin-bottom: 67px;}
 .wrap-6 pre{font: 400 15px var(--ff); line-height: 25px;}
 .wrap-6 .social i{ color: var(--yellow); margin-right: 15px;}

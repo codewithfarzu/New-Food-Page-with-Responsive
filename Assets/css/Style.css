@@ -207,7 +207,7 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .food-order .fa-solid{margin-left: 29px;}
     .food-order .social{margin-left: 53px;}
     .food-order .fa-instagram { margin-right: 0px;}
-    .collapse .nav-bar .btn {}
+    /* .collapse .nav-bar .btn {} */
     .foody h2{margin-top: 110px; font: 400 8rem var(--pio);}
     .foody p{margin-bottom: 35px;}
     .wrap-1 .img-2{margin-left: 42px; top: 0;}
@@ -254,7 +254,7 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .o-p-0{order: -1;}
     nav ul li {margin: 0;}
     .nav-bar li a {padding: 25px 5px;}
-    .nav-bar .btn {}
+    /* .nav-bar .btn {} */
     .nav-bar .btn {font-size: 16px; padding: 10px 10px;}
     .wrap-1 .img-2{left: 0;}
     .wrap-1 .double-img{margin: 100px 0 0 80px;}
@@ -311,11 +311,12 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .foody .btn{transform: translateY(0);}
     .foody h2 {font: 400 4rem var(--pio); margin: 0;}
     .foody p {font-size: 17px;}
+    .wrap-1 .tasty {margin-left: 30px;}
     .wrap-1 .aboutus {font: 400 25px var(--pio);}
     .wrap-1 h3 {font: 400 30px var(--ff);}
-    .wrap-1 .double-img {margin: 100px 0 0 85px;}
+    .wrap-1 .double-img {margin: 100px 0 0 30px;}
     .wrap-1 .img-1, .wrap-1 .img-2{width: 300px; height: 270px;}
-    .wrap-1 .btn {padding: 10px 25px;}
+    .wrap-1 .btn {padding: 10px 25px; margin-left: 30px;}
     .wrap-2{position: unset;}
     .wrap-2 .recipes{position:absolute;}
     .wrap-2 .recipes{width: 390px; height: 395px;}
@@ -337,12 +338,13 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .wrap-4 .drink-img img, .wrap-4 .dessert-img img{width: 428px; height: 428px;}
     .wrap-4 .main-img img {width: 425px; height: 445px;}
     .wrap-4 .prices p {font-size: 13px;}
-    .wrap-5 .happy .app{display: block; margin-top: 53px;}
+    .wrap-5 .happy .app{display: flex; flex-direction: column; gap: 30px; margin-top: 53px;}
     .wrap-5 .happy h3 {font-size: 55px;}
     .wrap-5 .happy span {font: 400 17px var(--ff);}
-    .wrap-5 .app a:first-child{margin-right:30px;}
+    .wrap-5 .app a{margin:0;}
+    .wrap-5 .app a:first-child{margin-right:0;}
     .wrap-5 .app img{width: 200px; height: 74px;}
-    .wrap-5 .app img{margin-bottom: 30px;}
+    .wrap-5 .app img{margin-bottom: 0px;}
     .wrap-5 .food-mobile {text-align: center;}
 
 }
@@ -381,7 +383,7 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .wrap-5 .happy {margin-left: 0;}
     .wrap-5 .happy h3{font-size: 40px;}
     .wrap-5 .happy span{font-size: 14px;}
-    .wrap-5 .happy .app{display: block;}
+    .wrap-5 .happy .app{display: flex;}
     .wrap-5 .app a:first-child{margin-right: 0;}
 
     
